@@ -1,6 +1,15 @@
 
 using System;
 
+
+// Creativity and Exceeding Requirements:
+// 1. I added an Entry Count feature to allow users
+//    to see the total number of journal entries.
+
+// 2. I included eight different random journal prompts
+//    to make the journaling experience more interesting.
+
+// 3. I prevent users from submitting empty journal responses.
 class Program
 {
     static void Main(string[] args)
