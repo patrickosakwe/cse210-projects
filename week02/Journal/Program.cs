@@ -8,7 +8,7 @@ using System;
 
 // 2. I included eight different random journal prompts
 //    to make the journaling experience more interesting.
-
+    
 // 3. I prevent users from submitting empty journal responses.
 class Program
 {

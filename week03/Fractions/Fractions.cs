@@ -1,0 +1,64 @@
+using System;
+
+public class Fraction
+{
+    private int _top;
+    private int _bottom;
+
+    // Constructor 1: Default fraction 1/1
+    public Fraction()
+    {
+        // Default to 1/1
+        _top = 1;
+        _bottom = 1;
+    }
+
+    // Constructor 2: One parameter, denominator defaults to 1
+    public Fraction(int wholeNumber)
+    {
+        _top = wholeNumber;
+        _bottom = 1;
+    }
+
+    // Constructor 3: Two parameters
+    public Fraction(int top, int bottom)
+    {
+        _top = top;
+        _bottom = bottom;
+    }
+
+    public int GetTop()
+    {
+        return _top;
+    }
+    // Setter for top
+    public void SetTop(int top)
+    {
+        _top = top;
+    }
+
+    // Getter for bottom
+    public int GetBottom()
+    {
+        return _bottom;
+    }
+
+    // Setter for bottom
+    public void SetBottom(int bottom)
+    {
+        _bottom = bottom;
+    }
+    public string GetFractionString()
+    {
+        // Returns the fraction as a string
+        string text = $"{_top}/{_bottom}";
+        return text;
+    }
+
+    public double GetDecimalValue()
+    {
+        // Returns the decimal value
+        return (double)_top / (double)_bottom;
+    }
+}
+
