@@ -5,7 +5,7 @@ class Program
     {
         // Test the Assignment class
         Assignment assignment = new Assignment(
-            "Samuel Bennett",
+            "Lola Adekola",
             "Multiplication");
 
         Console.WriteLine(assignment.GetSummary());
@@ -14,7 +14,7 @@ class Program
 
         // Test the MathAssignment class
         MathAssignment math = new MathAssignment(
-            "Roberto Rodriguez",
+            "Roseline Roberts",
             "Fractions",
             "7.3",
             "8-19");
@@ -26,9 +26,9 @@ class Program
 
         // Test the WritingAssignment class
         WritingAssignment writing = new WritingAssignment(
-            "Mary Waters",
-            "European History",
-            "The Causes of World War II");
+            "Mary Olawale",
+            "African History",
+            "The Causes of Nigeria Civil War");
 
         Console.WriteLine(writing.GetSummary());
         Console.WriteLine(writing.GetWritingInformation());

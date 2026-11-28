@@ -6,7 +6,7 @@ public class WritingAssignment : Assignment
     public WritingAssignment(string studentName, string topic,
         string title)
         : base(studentName, topic)
-    {
+    {    
         // Set any variables specific to the WritingAssignment class
         _title = title;
     }
@@ -17,3 +17,4 @@ public class WritingAssignment : Assignment
         return $"{_title} by {studentName}";
     }
 }
+         
